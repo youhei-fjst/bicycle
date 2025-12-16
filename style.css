@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+header {
+  max-width: 960px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+  vertical-align: bottom;
+  margin: 16px;
+}
+
+h1 {
+  vertical-align: bottom;
+  margin: 16px auto 16px 16px;
+}
+
+/* トップ */
+
+.top {
+  background: url(file:///c%3A/Users/user/html5linkCSS/%40charset%20utf-8/Bycycles/mainvisual.jpg) center ;
+  height: 600px;
+}
+
+.top img{
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* アバウト */
+
+h2 {
+  margin: 64px 0;
+  height: 32px;
+  text-align: center;
+  font-size: 32px;
+  vertical-align: bottom;
+  text-decoration: underline 2px ;
+  textde
+}
+
+.icon img {
+  border-radius: 50%;
+}
+
+.about {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.icon {
+  text-align: center;
+}
+
+
+/* バイシクル */
+
+.bicycle {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+}
+
+li img {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 8px 0;
+  text-align: center;
+}
+
+li p {
+  font-size: 12px;
+  margin: 0 0 96px;
+
+}
+
+/* フッター */
+
+footer {
+  text-align: center;
+}
+
+@media (width>=600px) {
+
+  .about {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .name h3 {
+    text-align: left;
+  }
+
+  ul {
+    display: flex;
+    gap: 16px;
+  }
+
+  li {
+    width: calc((100% - 32px) / 3);
+  }
+}
