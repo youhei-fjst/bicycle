@@ -24,8 +24,11 @@ h1 {
 /* トップ */
 
 .top {
-  background: url(file:///c%3A/Users/user/html5linkCSS/%40charset%20utf-8/Bycycles/mainvisual.jpg) center ;
   height: 600px;
+}
+
+.top img{
+  object-fit: cover;
 }
 
 .top img{
